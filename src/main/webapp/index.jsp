@@ -2,9 +2,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>JSP Timing</title>
 </head>
 <body>
-<h1>Hello first application</h1>
+<form action="/add" method="post">
+    <label>Item name: </label>
+    <input name="item_name" type="text">
+    <label>Item price: </label>
+    <input type="number" min="0" max="2000000" name="item_price">
+    <label>Item amount: </label>
+    <input type="number" min="0" name="item_amount">
+    <button>ADD ITEM</button>
+</form>
 </body>
 </html>
